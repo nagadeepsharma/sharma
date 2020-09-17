@@ -237,8 +237,9 @@ progress{
 
 	}
 	.cont{
-		margin-top: 500px;
-		margin-left: 55px;
+		height: 27%;
+		width: 45%;
+		
 	}
 	.dp2 p{
 		font-size: 1.9rem;
