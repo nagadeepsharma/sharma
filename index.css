@@ -44,34 +44,43 @@ a:hover{
 	color: grey;
 }
 .image{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	background-image: url(bg.jpg);
 	background-size: cover;
 	height: 100vh;
 	background-attachment: fixed;
-	display: flex;
 }
 .cont{
-	margin-top:200px;
-	margin-left:200px; 
+	background-color: rgb(0,0,0,0.7);
+	height: 25vh; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	width: 30%;
 }
 .prof{
-	color: #2F4F4F;
-	margin-left: 26px;
+	color:white;
 	font-size: 1.5rem;
 }
 .profp{
 	display: flex;
 	list-style-type: none;
 }
-li i{
+.profp i{
 	padding: 10px 10px;
 	cursor: pointer;
 	border-radius: 2rem;
 	transition: 0.5s;
+	color: white;
 }
 li i:hover{
-	background-color: rgb(0,0,0,0.3);
-	color: white;
+	background-color: white;
+	color:black;
 }
 .content{
 	width: 100%;
@@ -142,17 +151,21 @@ li i:hover{
 	justify-content: space-around;
 }
 .one li{
+	margin-bottom: 15px;
+	display: flex;
 	list-style-type: none;
 	margin-left: -20px; 
 	color:rgb(0,0,0,0.7);
 }
 .two li{
+	margin-bottom: 15px;
 	list-style-type: none;
 	margin-left: -20px; 
 	color:rgb(0,0,0,0.7);
 }
 
 .three li{
+	margin-bottom: 15px;
 	list-style-type: none;
 	margin-left: -20px; 
 	color:rgb(0,0,0,0.7);
